@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="module.css">
+  <link rel="stylesheet" href="state.css">
+  <link rel="stylesheet" href="theme.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header id="header">
+    <h1 id="title">
+      My Awesome Header
+    </h1>
+  </header>
+  <main id="article-list">
+    <aside id="side-nav">
+      <span id="nav-click">My Nav</span>
+      <nav id="navigation">
+        <ul>
+          <li id="li1" class="list-display">List Item</li>
+          <li id="li2" class="list-display">List Item</li>
+          <li id="li3" class="list-display">List Item</li>
+        </ul>
+      </nav>
+    </aside>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/150">
+      <img src="https://via.placeholder.com/150">
+      <img src="https://via.placeholder.com/150">
+    </div>
+    <div class="article">
+      <h2>Some Heading</h2>
+      <p>Some Paragraph text that can display things on the page.</p>
+    </div>
+    <div class="article">
+      <h2>Some Heading</h2>
+      <p>Some Paragraph text that can display things on the page.</p>
+    </div>
+    </div>
+  </main>
+  <footer id="site-footer">
+    <span>A little footer with some content &copy; Whenever</span>
+  </footer>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      const li1 = document.getElementById('li1');
+      const li2 = document.getElementById('li2');
+      const li3 = document.getElementById('li3');
+      const liEls = [li1, li2, li3];
+      for (const el of liEls) {
+        el.onclick = function () {
+          if (this.classList.contains('active')) {
+            this.classList.remove('active');
+          } else {
+            this.classList.add('active');
+          }
+          console.log(this.classList);
+        }
+      };
+
+      const navButton = document.getElementById('nav-click');
+      const nav = document.getElementById('navigation');
+      navButton.onclick = function () {
+        if (nav.classList.contains('hidden')) {
+          nav.classList.remove('hidden');
+        } else {
+          nav.classList.add('hidden');
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>

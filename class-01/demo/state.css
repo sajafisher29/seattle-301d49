@@ -1,0 +1,20 @@
+.hidden {
+  overflow: hidden;
+  width: 0;
+}
+
+.active {
+  background-color: purple;
+}
+
+@media (max-width: 500px) {
+  .article, .gallery {
+    margin: 15px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+  #side-nav {
+    display: none;
+  }
+}

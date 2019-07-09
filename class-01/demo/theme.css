@@ -1,0 +1,21 @@
+#title {
+  color: #d3d3d3;
+}
+
+.article {
+  font-family: sans-serif;
+  border-radius: 5px;
+  background-color: #d3d3d3;
+}
+
+.gallery {
+  background-color: #a9a9a9;
+}
+
+.article h2 {
+  color: lightpink;
+}
+
+.article p {
+  color: lightcoral;
+}

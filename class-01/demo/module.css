@@ -1,0 +1,28 @@
+.article, .gallery {
+  margin: 15px 15px 15px 105px;
+  padding: 15px;
+}
+
+.article h2 {
+  margin: 5px;
+}
+
+.article p {
+  margin: 5px;
+}
+
+.gallery  {
+  position: relative;
+  padding: 70px 20px;
+  text-align: center;
+  overflow-wrap: normal;
+}
+
+.list-display {
+  margin: 10px 0;
+}
+
+#site-footer span {
+  padding: 0 10px;
+  text-decoration: underline;
+}

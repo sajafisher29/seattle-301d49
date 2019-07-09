@@ -1,0 +1,29 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  height: 100%;
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 200%;
+  text-align: center;
+  color: #d3d3d3;
+  padding: 10px 0;
+}
+
+h2 {
+  font-size: 175%;
+  margin: 5px auto;
+}
+
+p {
+  font-size: 100%;
+}
+
+span {
+  color: #a9a9a9;
+}
