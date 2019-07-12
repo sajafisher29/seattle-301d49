@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/modules.css">
+  <title>Snack Ranker</title>
+</head>
+
+<body>
+  <h1>Snack Ranker</h1>
+  <p>Rank your favorite snacks</p>
+
+  <input type="radio" name="snack-type" value="all" checked>all</input>
+  <input type="radio" name="snack-type" value="sweet">sweet</input>
+  <input type="radio" name="snack-type" value="savory">savory</input>
+
+  <ul class="snacks">
+    <li id="snack-template" class="snack-template">
+      <section class="snack">
+        <h2>Name here</h2>
+        <h3>Rank here</h3>
+        <p>type here</p>
+      </section>
+    </li>
+  </ul>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

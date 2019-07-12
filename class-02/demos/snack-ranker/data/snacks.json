@@ -1,0 +1,22 @@
+[
+    {
+        "name": "snickers",
+        "rank": 1,
+        "type": "sweet"
+    },
+    {
+        "name": "salami",
+        "rank": 2,
+        "type": "savory"
+    },
+    {
+        "name": "hummus",
+        "rank": 3,
+        "type": "savory"
+    },
+    {
+        "name": "foi gras",
+        "rank": 4,
+        "type": "savory"
+    }
+]

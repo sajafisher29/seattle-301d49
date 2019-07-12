@@ -1,0 +1,13 @@
+.flexbox {
+  width: 480px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.flexItem {
+  margin: 5px;
+}
